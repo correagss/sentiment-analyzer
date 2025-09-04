@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-// Esta configuração aumenta o tempo limite da API para 60 segundos na Vercel
+
 export const maxDuration = 15;
 
 async function queryHuggingFace(texts) {
