@@ -1,13 +1,16 @@
+/* Define as variáveis de cor para os temas claro e escuro */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background-color-light: #ffffff;
+  --foreground-color-light: #171717;
+  --background-color-dark: #1a1a1a; /* Cor de fundo escura de segurança */
+  --foreground-color-dark: #ededed;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Regras de reset e padrões globais */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html,
@@ -16,27 +19,28 @@ body {
   overflow-x: hidden;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
 a {
   color: inherit;
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+/* A NOSSA PAREDE, PINTADA DO JEITO CERTO! */
+body {
+  /* 1. O Papel de Parede (com o caminho corrigido) */
+  background-image: url('imagens/folhas.jpg'); /* VERIFIQUE SE O NOME E A PASTA ESTÃO CERTOS */
+
+  /* 2. As propriedades para o papel de parede ficar perfeito */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  /* 3. Cor de fundo de segurança (pega da nossa variável de tema escuro) */
+  background-color: var(--background-color-dark);
+
+  /* 4. Propriedades que pegamos da sua segunda definição */
+  color: var(--foreground-color-dark); /* Cor do texto para o tema escuro */
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
