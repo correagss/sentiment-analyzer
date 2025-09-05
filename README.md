@@ -125,4 +125,5 @@ The uploaded CSV file must contain, at a minimum, the following columns, separat
 username;message
 
 jane_doe;"The service was incredible, I'm very happy!"
+
 john_smith;"Terrible, the product arrived broken."
