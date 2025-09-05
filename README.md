@@ -1,10 +1,18 @@
-# Sentiment Analyzer with Next.js and Hugging Face
+# 🐼 Sentiment Analyzer
+
+A simple project using the Hugging face API and Next.js.
+
+🚀 Check out the live demo: [sentiment-analyzer-red.vercel.app](https://sentiment-analyzer-red.vercel.app/)
 
 <img width="1857" height="1091" alt="image" src="https://github.com/user-attachments/assets/064734fa-e85b-4f9d-8887-26bf833d9899" />
 
+---
 
+# 📝 About The Project
 
 This is a simple web app built with Next.js (using the App Router) that allows users to upload a CSV file to perform sentiment analysis. The application processes messages from the file, sends them to a Hugging Face API, and displays a dashboard with consolidated results.
+
+---
 
 ## ✨ Features
 
