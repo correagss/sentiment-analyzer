@@ -1,7 +1,7 @@
 # Sentiment Analyzer with Next.js and Hugging Face
 
-![Application Screenshot](<img width="1857" height="1091" alt="image" src="https://github.com/user-attachments/assets/eed5c5f8-095f-4c27-bab6-09833d9c6652" />
-) 
+<img width="1857" height="1091" alt="image" src="https://github.com/user-attachments/assets/064734fa-e85b-4f9d-8887-26bf833d9899" />
+
 
 
 This is a simple web app built with Next.js (using the App Router) that allows users to upload a CSV file to perform sentiment analysis. The application processes messages from the file, sends them to a Hugging Face API, and displays a dashboard with consolidated results.
