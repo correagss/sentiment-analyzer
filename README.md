@@ -42,7 +42,9 @@ Follow the steps below to set up and run the project on your local machine.
 First, clone this repository to your local machine:
 
 - git clone https://github.com/correagss/sentiment-analyzer.git
-- cd <sentiment-analyzer>
+- cd sentiment-analyzer (<>)
+
+---
 
 ### 2. Install Dependencies
 
@@ -50,6 +52,7 @@ Install all project dependencies with the following command:
 
 - npm install
 
+---
 
 ### 3. Configure Environment Variables
 
@@ -60,12 +63,16 @@ To communicate with the Hugging Face API, you need an authentication key.
 
 - HUGGING_FACE_API_KEY="hf_<your-key>"
 
+---
+
 ### 4. Run the Development Server
 
 With everything set up, start the development server:
 
 - npm run dev
 - Open http://localhost:3000 in your browser to see the application running!
+
+---
 
 ### 🌐 Deploying on Vercel
 
@@ -75,11 +82,15 @@ Deploying this project on Vercel is extremely simple.
 
 - If you don't have one, create a free account on Vercel and connect it to your GitHub account.
 
+---
+
 ### 2. Import the Project
 
 - On your Vercel dashboard, click "Add New... -> Project".
 
 - Import your GitHub repository containing this project.
+
+---
 
 ### 3. Configure Environment Variables
 
@@ -92,12 +103,15 @@ During the import process, navigate to the "Environment Variables" section.
 - Value: hf_<your-key> (paste your key here)
 - Click "Add".
 
+--- 
+
 ### 4. Deploy
 
 - Click the "Deploy" button.
 
 - Vercel will automatically build and host your project. In a few minutes, you will receive a public URL for your live application!
 
+---
 
 ### 📄 CSV Format
 
