@@ -1,41 +1,38 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Veja https://help.github.com/articles/ignoring-files/ para mais detalhes sobre o gitignore.
 
-# dependencies
+# Dependências
+# A caixa de ferramentas gigante que não precisa ser enviada.
 /node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
 
-# testing
-/coverage
-
-# next.js
+# Arquivos de Build
+# A oficina de montagem temporária.
 /.next/
 /out/
 
-# production
-/build
+# Arquivos de Teste
+/coverage
 
-# misc
-.DS_Store
-*.pem
+# Arquivos de Configuração Local e Segredos
+# A CHAVE DO CARRO! NUNCA ENVIE ISSO!
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# debug
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# Arquivos do Editor
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
