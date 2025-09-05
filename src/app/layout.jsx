@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./globals.css";
 
     export const metadata = {
-      title: "Sentiment analizer",
+      title: "Sentiment Analyzer",
       description: "Sentiment analizer of CSV file.",
     };
 
